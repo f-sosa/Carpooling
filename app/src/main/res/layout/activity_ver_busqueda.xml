@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ver_Busqueda">
+
+    <ScrollView
+        android:id="@+id/Scrollview7"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Spinner
+                android:id="@+id/spinnerVerbusqueda"
+                android:layout_width="81dp"
+                android:layout_height="31dp"
+                android:layout_marginStart="52dp"
+                android:layout_marginTop="32dp"
+                android:visibility="invisible"
+                app:layout_constraintStart_toEndOf="@+id/textView25"
+                app:layout_constraintTop_toBottomOf="@+id/BtnVerBusqAcept" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="149dp"
+                android:layout_height="28dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="32dp"
+                android:text="Cantidad de Asientos"
+                android:visibility="invisible"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/BtnVerBusqAcept" />
+
+            <Button
+                android:id="@+id/BtnVerBusqAcept"
+                android:layout_width="0dp"
+                android:layout_height="47dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="40dp"
+                android:text="Aceptar y Crear viaje"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvVerBusquedaCantidadAcompaniantes" />
+
+            <TextView
+                android:id="@+id/TxtViajoVerBusq"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="80dp"
+                android:gravity="center"
+                android:text="Viajo Con"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/RatBarVer_Busq" />
+
+            <RatingBar
+                android:id="@+id/RatBarVer_Busq"
+                android:layout_width="0dp"
+                android:layout_height="46dp"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="80dp"
+                android:numStars="5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/TxtCelVerBusque" />
+
+            <TextView
+                android:id="@+id/TxtCelVerBusque"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="80dp"
+                android:gravity="center"
+                android:text="Numero"
+                android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/TxtNombreVerBusq" />
+
+            <TextView
+                android:id="@+id/TxtNombreVerBusq"
+                android:layout_width="0dp"
+                android:layout_height="26dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="40dp"
+                android:gravity="center"
+                android:text="Nombre"
+                android:textSize="22dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="0dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="48dp"
+                android:layout_marginEnd="80dp"
+                android:gravity="center"
+                android:text="Solicitado Por"
+                android:textSize="12dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <GridView
+                android:id="@+id/GrVerBusqueda"
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="12dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/TxtViajoVerBusq" />
+
+            <TextView
+                android:id="@+id/tvVerBusquedaCantidadAcompaniantes"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginEnd="40dp"
+                android:gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/GrVerBusqueda" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

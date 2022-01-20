@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/miperfil" android:title="Mi Perfil"/>
+    <item android:id="@+id/misPeticiones" android:title="Mis Peticiones"/>
+    <item android:id="@+id/misSolicitudes" android:title="Mis Solicitudes"/>
+    <item android:id="@+id/crearSolicitud" android:title="Crear Solicitud"/>
+    <item android:id="@+id/notificaciones" android:title="Notificaciones"/>
+    <item android:id="@+id/editarPerfil" android:title="Editar Perfil"/>
+    <item android:id="@+id/cerrarSesion" android:title="Cerrar Sesion"/>
+</menu>

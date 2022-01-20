@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollviewPeticion"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PeticionDeViaje">
+
+    <ScrollView
+        android:layout_width="470dp"
+        android:layout_height="794dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/MensajeError"
+                android:layout_width="295dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="72dp"
+                android:layout_marginTop="32dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/TxtTrasladoPeticion" />
+
+            <Button
+                android:id="@+id/BtnSolicitarViaje"
+                android:layout_width="166dp"
+                android:layout_height="41dp"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="72dp"
+                android:text="Solicitar Viaje"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/TxtTrasladoPeticion" />
+
+            <TextView
+                android:id="@+id/TxtTrasladoPeticion"
+                android:layout_width="297dp"
+                android:layout_height="21dp"
+                android:layout_marginStart="56dp"
+                android:layout_marginTop="64dp"
+                android:text="Ningun Pasajero Viajo con este conductor"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ratingBarPeticion" />
+
+            <RatingBar
+                android:id="@+id/ratingBarPeticion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="84dp"
+                android:layout_marginTop="36dp"
+                android:numStars="5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/TxtTelefonoPeticion" />
+
+            <TextView
+                android:id="@+id/TxtTelefonoPeticion"
+                android:layout_width="149dp"
+                android:layout_height="21dp"
+                android:layout_marginStart="128dp"
+                android:layout_marginTop="44dp"
+                android:text="Telefono"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/TxtNombrePeticion" />
+
+            <TextView
+                android:id="@+id/TxtNombrePeticion"
+                android:layout_width="168dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="40dp"
+                android:text="Nombre"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="119dp"
+                android:layout_height="21dp"
+                android:layout_marginStart="132dp"
+                android:layout_marginTop="8dp"
+                android:text="Ofrecido Por"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/GrPeticionViaje" />
+
+            <GridView
+                android:id="@+id/GrPeticionViaje"
+                android:layout_width="406dp"
+                android:layout_height="120dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

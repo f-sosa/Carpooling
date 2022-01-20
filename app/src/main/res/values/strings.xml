@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">TP_Final</string>
+    <string name="usuario">Email</string>
+    <string name="ingreseUsuario">Ingrese su email</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="ingreseConstraeña">Ingrese su contraseña</string>
+    <string name="login">Login</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="separador">¿Aún no tienes cuenta?</string>
+    <string name="registrate">¡Registrate, es gratis!</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="telefono">Teléfono</string>
+    <string name="nacimiento">Fecha de nacimiento</string>
+    <string name="email">Email</string>
+    <string name="password">Contraseña</string>
+    <string name="ingreseNombre">Ingrese su nombre</string>
+    <string name="ingreseApellido">Ingrese su apellido</string>
+    <string name="ingreseTelefono">Ingrese su telefono</string>
+    <string name="ingreseEmail">Ingrese su email</string>
+    <string name="repitaConstraeña">Ingrese nuevamente su contraseña</string>
+    <string name="ingresoPasajero">Conductor</string>
+    <string name="ingresoConductor">Pasajero</string>
+    <string name="ingreseNacimiento">Ingrese su fecha de nacimiento</string>
+    <string name="tituloSeleccionRol">¡Bienvenido Tobias!</string>
+    <string name="proximosViajes">Proximos viajes</string>
+    <string name="preguntaRol">¿Como deseas ingresar?</string>
+    <string name="dni">DNI</string>
+    <string name="ingreseDNI">Ingrese su DNI</string>
+    <string name="continuar">CONTINUAR</string>
+    <string name="rol">Rol</string>
+    <string name="tituloRegistro">Solo algunos datos más...</string>
+
+    <!-- PANTALLA CREAR VIAJE -->
+    <string name="TituloNuevoViaje">Nuevo Viaje</string>
+    <string name="ProvinciaOrigen">Provincia Origen</string>
+    <string name="CiudadOrigen">Ciudad Origen</string>
+    <string name="ProvinciaDestino">Provincia Destino</string>
+    <string name="CiudadDestino">Ciudad Destino</string>
+    <string name="Fecha">Fecha</string>
+    <string name="Hora">Hora</string>
+    <string name="CantidadPasajeros">Cantidad de Pasajeros</string>
+    <string name="CrearViaje">Crear Viaje</string>
+    <string name="BuscarViajes">Buscar Viajes</string>
+    <string name="MisViajes">Mis Viajes</string>
+    <string name="Buscar">Buscar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--  PANTALLA MIS VIAJES  -->
+    <string name="Cancelar">Cancelar</string>
+    <string name="DesasignarPasajero">Desasignar pasajero</string>
+    <string name="Volver">Volver</string>
+    <string name="Aplicar">Aplicar</string>
+
+    <!-- PANTALLA NUEVA SOLICITUD -->
+    <string name="TituloNuevaSolicitud">Nueva Solicitud</string>
+    <string name="CrearSolicitud">Crear Solicitud</string>
+
+
+    <!-- PANTALLA VER VIAJE PASAJERO -->
+    <string name="TxtViewOfreceViaje">Viaje ofrecido</string>
+    <string name="BtnPeticionViaje">Quiero unirme al viaje</string>
+
+</resources>
